@@ -4,7 +4,7 @@
   "description": "Program API Automation Menggunakan Mocha, Chai dan Supertest",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha ./test/specs/user.spec.js"
+    "test": "npx mocha ./test/specs/* --exclude ./test/specs/authentication.spec.js --reporter mochawesome"
   },
   "author": "wahyu",
   "license": "ISC",
