@@ -44,7 +44,7 @@ describe('Unit Skenario', () => {
 
         expect((await response).status).to.equal(200);
         expect((await response).body.status).to.contain("success");
-        console.log((await response).body.data.units);
+        // console.log((await response).body.data.units);
     })
 
     it('Update Unit', async () => {

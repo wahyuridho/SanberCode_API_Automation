@@ -44,7 +44,7 @@ describe('Category Skenario', () => {
         
         expect((await response).status).to.equal(200);
         expect((await response).body.status).to.contain('success');
-        console.log((await response).body.data.categories);
+        // console.log((await response).body.data.categories);
     })
 
     it('Success Update Category', async () => {

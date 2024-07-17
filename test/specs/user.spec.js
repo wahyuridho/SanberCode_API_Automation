@@ -47,7 +47,7 @@ describe('User Scenario', () => {
 
         expect((await response).status).to.equal(200);
         expect((await response).body.status).to.contain("success");
-        console.log((await response).body.data.users)
+        // console.log((await response).body.data.users)
     })
 
     it('Succes Update Data User', async () => {
