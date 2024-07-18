@@ -23,4 +23,4 @@ Program ini dibuat bertujuan untuk menyelesaikan tugas yang diberikan pada progr
 
 
 Berikut adalah video ketika code di execute dan melihat hasil reportnya
-[![Watch the video](https://youtu.be/6_ru-0Gklu4)]
+[![Watch the video]](https://youtu.be/6_ru-0Gklu4)
